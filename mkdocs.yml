@@ -1,0 +1,65 @@
+site_name: LENGUAJE PROGRAMACION PHP
+docs_dir: "md"
+site_dir: "docs"
+
+nav:
+  - Índice:
+      - Inicio: index.md
+      - "1. Introducción": introduccion.md
+      - "2. Lenguaje PHP": lenguaje.md
+      - "3. Programación orientada a objetos": poo.md
+      - "4. Debug en PHP": debug.md
+
+  - About: about.md
+
+theme:
+  language: es
+  name: material
+
+  favicon: imagenes/favicon.png
+  logo: img/phplogo.png
+
+  palette:
+    # Modo claro
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+
+    # Modo oscuro
+    - scheme: slate
+      primary: deep purple
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+
+  font:
+    text: Poppins
+    code: Fira Code
+
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - header.autohide
+    - content.code.copy
+    - content.tabs.link
+    
+extra:
+  search:
+    language: "es"
+
+plugins:
+  - search
+
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
