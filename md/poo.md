@@ -18,4 +18,5 @@ Además, la POO se basa en varios principios importantes:
 * **Polimorfismo**: posibilita que diferentes objetos respondan de manera distinta al mismo método.
 * **Abstracción**: simplifica el diseño mostrando únicamente los elementos necesarios.
 
-PHP ofrece soporte completo para programación orientada a objetos, permitiendo trabajar con clases, objetos, constructores, herencia, interfaces y otros mecanismos avanzados utilizados en el desarrollo de aplicaciones modernas.
+???+ note "Resumen"
+    PHP ofrece soporte completo para programación orientada a objetos, permitiendo trabajar con clases, objetos, constructores, herencia, interfaces y otros mecanismos avanzados utilizados en el desarrollo de aplicaciones modernas.

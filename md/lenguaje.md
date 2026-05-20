@@ -7,7 +7,8 @@
 * El navegador del usuario únicamente recibe el resultado generado tras procesar el código en el servidor.
 * Los programas escritos en PHP se guardan en archivos con extensión `.php`.
 
-La versión más reciente es PHP 8.0, publicada en noviembre de 2020 (y próximamente llegará la versión 8.1). La rama 7.0 apareció en diciembre de 2015 e introdujo importantes mejoras, destacando un rendimiento más de dos veces superior respecto a PHP 5, además de numerosas funcionalidades nuevas.
+!!! info "Versiones"
+    La versión más reciente es PHP 8.5.6. La versión estable actual de PHP es la 8.5.6. Para los proyectos en producción, las versiones recomendadas son la 8.3 o 8.4, ya que las versiones anteriores a la 8.2 han alcanzado su fin de ciclo y carecen de soporte de seguridad.
 
 La documentación oficial de PHP es muy completa y se encuentra disponible en español: <https://www.php.net/manual/es/>.
 

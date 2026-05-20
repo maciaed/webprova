@@ -1,0 +1,61 @@
+@media print {
+
+  /* Oculta header, footer y navegación lateral */
+  header.md-header,
+  footer.md-footer,
+  .md-sidebar,
+  .md-tabs,
+  .md-top,
+  .md-dialog,
+  nav.md-tabs {
+    display: none !important;
+  }
+
+  /* Elimina márgenes excesivos del contenido principal */
+  .md-main__inner {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .md-content {
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .md-content__inner {
+    margin: 0 !important;
+    padding: 1rem !important;
+  }
+
+  /* Oculta el botón de descarga PDF */
+  .md-content__button {
+    display: none !important;
+  }
+
+  /* Evita páginas en blanco por saltos forzados */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    page-break-before: avoid;
+  }
+
+  pre, code, blockquote, .admonition, details {
+    page-break-inside: avoid;
+  }
+
+  .mermaid-svg, .mermaid-svg svg {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+  }
+
+  /* Evita página en blanco al final */
+  .md-content__inner > *:last-child {
+    page-break-after: avoid !important;
+    margin-bottom: 0 !important;
+  }
+
+  body, html {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+}

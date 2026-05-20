@@ -10,4 +10,5 @@ En este modelo, uno o varios clientes se conectan a un servidor para solicitar r
 
 En el contexto de las aplicaciones web, el cliente corresponde al navegador web utilizado por el usuario.
 
-El navegador realiza una solicitud (*request*), normalmente utilizando el protocolo HTTP mediante los puertos 80 o 443, y el servidor devuelve una respuesta (*response*).
+???+ tip "Solicitudes"
+    El navegador realiza una solicitud (*request*), normalmente utilizando el protocolo HTTP mediante los puertos 80 o 443, y el servidor devuelve una respuesta (*response*).

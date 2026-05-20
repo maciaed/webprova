@@ -54,12 +54,35 @@ theme:
 extra:
   search:
     language: "es"
-
-plugins:
-  - search
-
+  mermaid:
+    theme: default
 
 markdown_extensions:
   - admonition
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
   - attr_list
   - md_in_html
+
+plugins:
+  - search
+  - glightbox
+  - mermaid2:
+      javascript: https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - page-to-pdf
+  #- pdf-export
+
+extra_javascript:
+  - javascripts/pdf-wait-mermaid.js     # este sí se queda aquí
+
+hooks:
+  - hooks/mermaid_to_svg.py
+
+extra_css:
+  - css/pdf-print.css
